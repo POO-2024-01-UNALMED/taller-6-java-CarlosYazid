@@ -1,6 +1,26 @@
 package vehiculos;
+
 import vehiculos.Fabricante;
+
 public class Vehiculo {
+
+    /*
+    *  Taller 6 Java
+    *  Realizado el 23 de marzo del 2024
+    *  Desarrollado por Carlos Yazid Padilla
+    *  Topico: Herencia 2
+    *
+    *  Dependencias:
+    *
+    *  - vehiculos > Vehiculo
+    *  - vehiculos > Pais
+    *  - vehiculos > Fabricante
+    *  - vehiculos > Camion
+    *  - vehiculos > Camioneta
+    *  - zooAnimales > Automovil
+    *
+    */
+
 
     // Atributos de Instancia
 
@@ -75,7 +95,8 @@ public class Vehiculo {
 
     public static void setCantidadVehiculos(int cantidadVehiculos) {Vehiculo.CantidadVehiculos = cantidadVehiculos;}
 
-    public Pais getPais() {
-        return getFabricante().getPais();
-    }
-}
+    public Pais getPais() {return getFabricante().getPais();}
+
+    public static String vehiculosPorTipo() {return String.format("Automoviles: %d\nCamionetas: %d\nCamiones: %d",Automovil.getCantidadAutomoviles(),Camioneta.getCantidadCamionetas(),Camion.getCantidadCamiones());
+
+} // Anti - copy : Carlos Yazid Padilla

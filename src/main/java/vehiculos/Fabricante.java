@@ -1,15 +1,21 @@
 package vehiculos;
+
 import vehiculos.Pais;
 import java.util.ArrayList;
+
 public class Fabricante {
+
+    // Atributos de Instancia
 
     protected String nombre;
     protected Pais pais;
-
     protected int cantAutos;
+
+    // Atributos de Clase
 
     protected static ArrayList<Fabricante> fabricantes = new ArrayList<>();
 
+    // Constructores
 
     public Fabricante(String nombre, Pais pais) {
         this.nombre = nombre;
@@ -18,9 +24,9 @@ public class Fabricante {
         Fabricante.fabricantes.add(this);
     }
 
-    public Fabricante() {
-        this(null,null);
-    }
+    public Fabricante() {this(null,null);}
+
+    // Getters and Setters
 
     public String getNombre() {return nombre;}
 
@@ -34,6 +40,8 @@ public class Fabricante {
 
     public void setCantAutos(int cantAutos) {this.cantAutos = cantAutos;}
 
+    // Metodos de Clase
+
     public static Fabricante fabricaMayorVentas() {
         Fabricante Mayor = fabricantes.get(0);
         for(int i = 1; i < fabricantes.size(); i++) {
@@ -43,4 +51,5 @@ public class Fabricante {
         }
         return Mayor;
     }
-}
+    
+} // Anti - copy : Carlos Yazid Padilla

@@ -1,13 +1,19 @@
 package vehiculos;
+
 import java.util.ArrayList;
 
 public class Pais {
 
-    protected String nombre;
+    // Atributos de Instancia
 
+    protected String nombre;
     protected ArrayList<Vehiculo> listAutos;
 
+    // Atributos de Clase
+
     protected static ArrayList<Pais> listPaises = new ArrayList<>();
+
+    // Constructores
 
     public Pais(String nombre) {
         this.nombre = nombre;
@@ -17,6 +23,8 @@ public class Pais {
 
     public Pais() {this(null);}
 
+    // Getters and Setters
+
     public String getNombre() {return nombre;}
 
     public void setNombre(String nombre) {this.nombre = nombre;}
@@ -24,6 +32,8 @@ public class Pais {
     public ArrayList<Vehiculo> getListAutos() {return listAutos;}
 
     public int getCantAutos(){return listAutos.size();}
+
+    // Metodos de Clase
 
     public static Pais paisMasVendedor() {
         Pais Mayor = listPaises.get(0);
@@ -34,4 +44,5 @@ public class Pais {
         }
         return Mayor;
     }
-}
+    
+} // Anti - copy: Carlos Yazid Padilla

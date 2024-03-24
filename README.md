@@ -4,3 +4,5 @@ Para hacer uso de la herramienta para autocalificar tu implementacion debes pega
 
 ![Logo UNAL](https://github.com/POO-UNALMED/useful/blob/master/img/escudoUnal_black.png)
 #### FACULTAD DE MINAS  SEDE MEDELLIN
+
+##### Resuelto

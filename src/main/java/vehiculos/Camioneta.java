@@ -11,7 +11,7 @@ public class Camioneta extends Vehiculo {
 
     // Atributos de Clase
 
-    protected static int cantidadCamioneta;
+    protected static int cantidadCamionetas;
 
     // Constructores
 

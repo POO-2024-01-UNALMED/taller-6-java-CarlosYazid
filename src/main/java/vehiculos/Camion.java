@@ -27,4 +27,4 @@ public class Camion extends Vehiculo {
 
     public static int getCantidadCamiones(){return Camion.cantidadCamiones;}
 
-} // Anti - copy : Carlos Yazid Padilla
+}// Anti - copy : Carlos Yazid Padilla

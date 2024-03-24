@@ -97,6 +97,6 @@ public class Vehiculo {
 
     public Pais getPais() {return getFabricante().getPais();}
 
-    public static String vehiculosPorTipo() {return String.format("Automoviles: %d\nCamionetas: %d\nCamiones: %d",Automovil.getCantidadAutomoviles(),Camioneta.getCantidadCamionetas(),Camion.getCantidadCamiones());
+    public static String vehiculosPorTipo() {return String.format("Automoviles: %d\nCamionetas: %d\nCamiones: %d",Automovil.getCantidadAutomoviles(),Camioneta.getCantidadCamionetas(),Camion.getCantidadCamiones());}
 
-} // Anti - copy : Carlos Yazid Padilla
+}// Anti - copy : Carlos Yazid Padilla

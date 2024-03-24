@@ -25,4 +25,4 @@ public class Automovil extends Vehiculo {
 
     public static int getCantidadAutomoviles(){return Automovil.cantidadAutomoviles;}
 
-} // Anti - copy : Carlos Yazid Padilla
+}// Anti - copy : Carlos Yazid Padilla

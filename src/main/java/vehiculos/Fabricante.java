@@ -51,5 +51,5 @@ public class Fabricante {
         }
         return Mayor;
     }
-    
-} // Anti - copy : Carlos Yazid Padilla
+
+}// Anti - copy : Carlos Yazid Padilla
